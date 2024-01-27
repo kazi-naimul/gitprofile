@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'kazi-naimul', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 10, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,113 +33,119 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+      title: '@kazinaimul/rabbitmq (NPM Package)',
+      description:
+        'RabbitMQ Helper: Simplifying RabbitMQ integration in Node.js. Easily connect, publish messages, and consume with easy retry mechanism.',
+      imageUrl: 'https://i.ibb.co/PNSDKzh/screenshot-www-npmjs-com-2023-12-25-12-43-16.png" alt="screenshot-www-npmjs-com-2023-12-25-12-43-16',
+      link: 'https://www.npmjs.com/package/@kazinaimul/rabbitmq',
+    },
+    {
+      title: 'IMAAA (Mobile APP)',
+      description:
+        'In this app the ex cadets of International Maritime Academy can find their information. The main purpose of this app is to find their blood group in emergency case.This app is only for IMA ex cadets.',
+      imageUrl: 'https://i.ibb.co/Y2f17N6/screenshot-play-google-com-2023-12-25-12-46-10.png" alt="screenshot-play-google-com-2023-12-25-12-46-10',
+      link: 'https://play.google.com/store/apps/details?id=com.imaaa&pcampaignid=web_share',
+    },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
+    title: 'Kazi Naimul Hoque - Portfolio',
+    description: 'Tech and Startup Enthusiast',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'kazinaimul',
+    twitter: 'kazinaimul_',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'kazinaimul',
+    dev: 'kazinaimul',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://kazinaimulhoque.com/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'naimul.aoyan107@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1R5RA3uiOrSxWHGJUsOX2EBET8XfhPiIU/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
     'Laravel',
     'JavaScript',
-    'React.js',
+    'Typescript',
     'Node.js',
-    'Nest.js',
+    'React.js',
+    'Python',
     'MySQL',
     'PostgreSQL',
+    'Mongodb',
+    'RabbitMQ',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'RoBenDevs',
+      position: 'Software Engineer III',
+      from: 'September 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://robendevs.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Orangetoolz',
+      position: 'Sr. Software Engineer',
+      from: 'Jan 2022',
+      to: 'August 2023',
+      companyLink: 'https://orangetoolz.com',
+    },
+    {
+      company: 'Orangetoolz',
+      position: 'Software Engineer',
+      from: 'Jan 2019',
+      to: 'Dec 2021',
+      companyLink: 'https://orangetoolz.com',
+    },
+    {
+      company: 'Orangetoolz',
+      position: 'Sr. Software Engineer',
+      from: 'Dec 2017',
+      to: 'Dec 2018',
+      companyLink: 'https://orangetoolz.com',
     },
   ],
-  certifications: [
+  /* certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
-      link: 'https://example.com',
+      link: 'https://example.com'
     },
-  ],
+  ], */
+
   educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+     {
+      institution: 'Chittagong University of Engineering & Technology',
+      degree: 'BSC in CSE',
+      from: '2013',
+      to: '2017',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 3, // How many articles to display. Max is 10.
+    username: 'kazinaimul', // to hide blog section, keep it empty
+    limit: 10, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-YF5D91SGTX', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
@@ -147,11 +153,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'nord',
+    defaultTheme: 'forest',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
