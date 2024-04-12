@@ -94,9 +94,16 @@ const CONFIG = {
   experiences: [
     {
       company: 'RoBenDevs',
+      position: 'Software Engineer IV & Pod Leader',
+      from: 'April 2024',
+      to: 'Present',
+      companyLink: 'https://robendevs.com',
+    },
+    {
+      company: 'RoBenDevs',
       position: 'Software Engineer III',
       from: 'September 2023',
-      to: 'Present',
+      to: 'March 2024',
       companyLink: 'https://robendevs.com',
     },
     {
