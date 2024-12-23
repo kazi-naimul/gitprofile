@@ -122,7 +122,7 @@ const CONFIG = {
     },
     {
       company: 'Orangetoolz',
-      position: 'Sr. Software Engineer',
+      position: 'Software Engineer',
       from: 'Dec 2017',
       to: 'Dec 2018',
       companyLink: 'https://orangetoolz.com',
