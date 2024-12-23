@@ -52,7 +52,7 @@ const CONFIG = {
   seo: {
     title: 'Kazi Naimul Hoque - Portfolio',
     description: 'Tech and Startup Enthusiast',
-    imageURL: '',
+    imageURL: 'https://avatars.githubusercontent.com/u/90389165?v=4',
   },
   social: {
     linkedin: 'kazinaimul',
