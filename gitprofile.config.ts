@@ -90,6 +90,7 @@ const CONFIG = {
     'RabbitMQ',
     'Git',
     'Docker',
+    'Kubernates'
   ],
   experiences: [
     {
