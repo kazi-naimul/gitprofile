@@ -93,10 +93,17 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Miaki',
+      position: 'Senior Software Engineer',
+      from: 'March 2025',
+      to: 'Present',
+      companyLink: 'https://miaki.co',
+    },
+    {
       company: 'RoBenDevs',
       position: 'Software Engineer IV & Pod Leader',
       from: 'April 2024',
-      to: 'Present',
+      to: 'March 2025',
       companyLink: 'https://robendevs.com',
     },
     {
